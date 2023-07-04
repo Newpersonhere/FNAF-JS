@@ -81,7 +81,7 @@ function newgame() {
 	foxydifficulty = 8;
 	bunnydifficulty = 9;
 	chicadifficulty = 6;
-	freddydifficulty = 0;
+	freddydifficulty = 10;
 	sound.stopSound();
 	localStorage["fnaf-js-savegame.night"]="1";
 	document.getElementById("newgamebg").style.display="block";
@@ -102,37 +102,37 @@ function loadgame(nightmare) {
 				foxydifficulty = 8;
 				bunnydifficulty = 9;
 				chicadifficulty = 6;
-				freddydifficulty = 0;
+				freddydifficulty = 10;
 			break;
 			case "2":
 				foxydifficulty = 10;
 				bunnydifficulty = 12;
 				chicadifficulty = 9;
-				freddydifficulty = 0;
+				freddydifficulty = 11;
 			break;
 			case "3":
 				foxydifficulty = 12;
 				bunnydifficulty = 15;
 				chicadifficulty = 12;
-				freddydifficulty = 10;
+				freddydifficulty = 13;
 			break;
 			case "4":
 				foxydifficulty = 14;
 				bunnydifficulty = 18;
 				chicadifficulty = 15;
-				freddydifficulty = 13;
+				freddydifficulty = 19;
 			break;
 			case "5":
 				foxydifficulty = 16;
 				bunnydifficulty = 19;
 				chicadifficulty = 17;
-				freddydifficulty = 16;
+				freddydifficulty = 19;
 			break;
 			case "6":
 				foxydifficulty = 20;
 				bunnydifficulty = 20;
 				chicadifficulty = 19;
-				freddydifficulty = 18;
+				freddydifficulty = 200;
 			break;
 			case "7":
 				foxydifficulty = 16;
@@ -147,7 +147,7 @@ function loadgame(nightmare) {
 		foxydifficulty = 17;
 		bunnydifficulty = 19;
 		chicadifficulty = 17;
-		freddydifficulty = 15;
+		freddydifficulty = 2000;
 	};
 	sound.stopSound();
 	loadroomImages();
